@@ -1,0 +1,18 @@
+.todoItem {
+  margin: 20px;
+  display: inline;
+}
+
+.todoItem h1 {
+  background: #ee6f57;
+  padding: 15px;
+  transition: background 0.5s ease;
+}
+
+.todoItem h1:hover {
+  background: #f4f4f4;
+}
+
+.todoItem:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ee6f57;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: padding 0.5s ease;
+}
+
+.input:focus {
+  outline: none;
+  padding: 0.5rem;
+}
+
+.submit-btn {
+  color: #f4f4f4;
+  background: #ee6f57;
+  padding: 10px 5px;
+  margin: 10px 0;
+  border: none;
+  transition: background 0.5s ease;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background: #333;
+}
